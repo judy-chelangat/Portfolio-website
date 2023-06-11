@@ -1,0 +1,249 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&family=Ubuntu:ital,wght@0,400;1,400;1,500&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+body{
+    background-color: black;
+    color: #fff;
+}
+/* navbar styling  */
+.navbar{
+     /* background-color:crimson; */
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding:20px;
+    color: #fff;
+    font-family: 'Ubuntu', sans-serif;
+}
+.list-items ul li{
+    display: inline-block;
+    list-style: none;
+    margin-left: 25px;
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+.list-items ul li:hover{
+    color: crimson;
+}
+.list-items  {
+    margin-right: 20px;
+}
+.logo{
+    font-size: 30px;
+    font-weight: 600;
+}
+.logo span   {
+    color: crimson;
+}
+/* home styling */
+.home{
+    font-family: 'Ubuntu', sans-serif;
+    height: 100vh;
+
+}
+.home-content{
+    position: relative;
+}
+.home-content p {
+    position: absolute;
+    top: 200px;
+    left: 90px;
+    font-weight: 900;
+    font-size: 35px;
+    line-height: 50px;
+}
+
+.home-content  span{
+    color: crimson;
+}
+/* abouut section */
+.about-section .skills-column{
+    font-family: 'Poppins', sans-serif;
+    width: 100%;
+}
+ .title{
+    font-family: 'Ubuntu', sans-serif;
+    text-align: center;
+    color: crimson;
+    font-size: 25px;
+    margin-top: 40px;
+}
+.about-section p{
+    width:80% ;
+    text-align: center;
+    margin: auto;
+    margin-top: 20px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+}
+hr{
+    width: 8%;
+    margin: auto;
+    margin-top: 5px;
+}
+/* skills section styling */
+.skills-column {
+    font-weight: 600;
+    font-size: 20px;
+    height: 60vh;
+    line-height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.skills-column-left , .skills-column-middle{
+   text-align: center;
+   margin-top: 30px;
+   width: 100%; 
+
+}
+.skill-column-left{
+  margin-right: 60px;
+}
+.skills-column h3{
+    color: crimson;
+}
+.skills-column-right{
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 30px;
+    width: 40%;
+    margin: auto;
+    margin-top: 70px;
+}
+.skills-column-right .info , .row{    
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   margin-bottom: 10px;
+}
+
+.skills-column-right .info span{
+    font-weight: 600;
+    font-size: 18px;
+}
+.skills-column-right .line{
+    height: 6px;
+    width: 100%;
+    background: #fff;
+    position: relative;
+}
+.skills-column-right .line::before{
+content: "";
+position: absolute;
+height: 100%;
+width: 80%;
+left: 0;
+top: 0;
+background: crimson;
+}
+.skills-column-right .html::before{
+    width: 90%;
+}
+.skills-column-right .css::before{
+    width: 70%;
+}
+.skills-column-right .js::before{
+    width: 75%;
+}
+.skills-column-right .sql::before{
+    width: 80%;
+}
+.skills-column-right .python::before{
+    width: 80%;
+}
+.skills-column-right .java::before{
+    width: 45%;
+}
+/* education section styling */
+.education-details{
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    height: 60vh;
+}
+.education-details span{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 30px;
+}
+.education-details .info{
+    display: flex;
+    align-items: center;
+   justify-content: space-between;
+   margin-bottom: 10px;
+}
+/* contact section styling */
+.contact-section{
+    width: 90%;
+    margin: auto;
+    /* margin-top: 40px; */
+    height: 60vh;
+}
+.row{
+    margin-top: 30px;
+}
+.contact-left h3{
+font-size: 30px;
+font-weight: 600;
+font-family: 'Ubuntu', sans-serif;
+}
+.contact-left p , .icons{
+    margin-top: 25px;
+}
+.contact-left p i{
+    font-size: 25px;
+    color: #ff004f;
+    margin-right: 15px;
+}
+.icons a{
+    color: crimson;
+    font-size: 30px;
+    margin-right: 15px;
+    /* transition: transform 0.3s ease; */
+}
+.icons a:hover{
+    color: #ababab;
+    /* transform: translateY(-10px); */
+}
+.btn1 {
+    background-color: #ff004f;
+    padding: 15px;
+    color: #fff;
+    border-radius:10px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+}
+.contact-right form{
+    width: 100%;
+}
+form input , form textarea{
+    width: 100%;
+    border: 0;
+    outline: none;
+    background-color: #262626;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 18px;
+    border-radius: 6px;
+    color: #fff;
+}
+.btn2{
+    background-color: #ff004f;
+    padding: 10px;
+    color: #fff;
+    border: 0;
+    border-radius:6px;
+    font-family: 'Ubuntu', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
