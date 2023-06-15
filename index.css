@@ -30,7 +30,6 @@ body{
     display: inline-block;
     list-style: none;
     margin-left: 25px;
-   
     transition: color 0.3s ease;
 }
 .list-items ul li a{
@@ -73,6 +72,10 @@ body{
     color: crimson;
 }
 /* abouut section */
+#about{
+    height: 100vh;
+    margin-top: 50px;
+}
 .about-section .skills-column{
     font-family: 'Poppins', sans-serif;
     width: 100%;
@@ -102,11 +105,16 @@ hr{
 .skills-column {
     font-weight: 600;
     font-size: 20px;
-    height: 60vh;
+    height: 100vh;
     line-height: 30px;
     display: flex;
     align-items: center;
     justify-content: space-between;
+}
+.skills-column img{
+    max-width: 60%;
+    height: auto;
+    margin-top: 10px;
 }
 .skills-column-left , .skills-column-middle{
    text-align: center;
@@ -173,6 +181,10 @@ background: crimson;
     width: 45%;
 }
 /* education section styling */
+.education{
+    height: 70vh;
+    margin-top: 150px;
+}
 .education-details{
     width: 90%;
     margin: auto;
@@ -184,6 +196,13 @@ background: crimson;
     font-weight: 500;
     font-size: 20px;
     line-height: 30px;
+}
+.info span a{
+    text-decoration: none;
+    color: #fff;
+}
+.info span a:hover{
+    color: #ff004f;
 }
 .education-details .info{
     display: flex;
@@ -256,3 +275,14 @@ form input , form textarea{
     font-weight: 500;
     font-size: 15px;
 }
+/* footer section */
+footer{
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    margin-top: 100px;
+    text-align: center;
+    background-color:rgb(209, 39, 73);
+    padding: 20px;
+}
+/* making the website responsive  */
