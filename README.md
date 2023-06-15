@@ -31,11 +31,10 @@ Contact page with a form to send me a message
 # Built With
 HTML
 CSS
-Javascript 
 Authors
-Judy chelangat
+Barasa Micah
 
-# License
+#License
 This project is licensed under the MIT License - see the LICENSE file for details.
 
 Acknowledgments
